@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 import CheckBox from './CheckBox';
 import { Text, StyleSheet, View, Alert } from 'react-native';
-import { Todo } from '../App';
+import { Todo } from '../../App';
 
 interface TodoItemProps {
   item: Todo;

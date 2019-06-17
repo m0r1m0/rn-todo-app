@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, TextInput, Text, FlatList, TouchableOpacity } from 'react-native';
-import Header from './Header';
-import Flex from './Flex';
-import TodoInput from './components/TodoInput';
-import Card from './components/Card';
-import TodoItem from './components/TodoItem';
+import Header from './src/components/Header';
+import Flex from './src/components/Flex';
+import TodoInput from './src/components/TodoInput';
+import Card from './src/components/Card';
+import TodoItem from './src/components/TodoItem';
 
 export interface Todo {
   id: number;
